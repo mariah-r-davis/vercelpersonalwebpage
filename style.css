@@ -20,5 +20,15 @@ p {
 }
 
 a {
-    color:hotpink
+    color: hotpink
 }
+
+#articleDark {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  #articleLight {
+    background-color: #fff;
+    color: #000;
+  }
