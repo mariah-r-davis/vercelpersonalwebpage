@@ -15,6 +15,10 @@ p {
     color: blueviolet;
 }
 
+.highlight {
+    background-color: yellow;
+}
+
 #additionalResources {
     color: orange;
 }
@@ -26,9 +30,9 @@ a {
 #articleDark {
     background-color: #000;
     color: #fff;
-  }
-  
-  #articleLight {
+}
+
+#articleLight {
     background-color: #fff;
     color: #000;
-  }
+}
