@@ -30,7 +30,18 @@ h1 {
 }
 .box {
     align-items: center;
-    background: grey;
+    background: rgb(222, 237, 66);
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 10px #fbfbfb;
+}
+
+.box2 {
+    align-items: center;
+    background: rgb(120, 66, 237);
     color: white;
     display: inline-block;
     justify-content: center;

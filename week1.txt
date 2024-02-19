@@ -1,0 +1,50 @@
+Class:  .wide
+ID:  #big
+
+
+01/22/2024 – 
+
+Lookup all of the element names such as section, article, header, header 2, main, etc..
+
+What is the benefit of correctly-structured HTML? Semantic HTML is more SEO-friendly, more user-friendly, and more accessible to folks who use page readers or have vision problems for instance
+
+Head vs header in HTML
+
+
+Class is specifically used for CSS 
+
+
+Banner// header
+
+Menu// nav
+
+
+Bold vs Strong:
+
+You can just bold ()aesthetic) but if you are trying to add voice and tone to the copy, use the STRONG tag
+
+Blockquote and address have webpage breaks built into the HTML
+
+Or ust a break element: <br>
+
+<abbr> </abbr> - Abbreviation - you might want to put in ()
+
+<dfn> </dfr> - Definition – “The Beatles were a famous rock group from the 1960’s…”
+
+Quotation marks: <q> </q> vs “”? Best for accessibility 
+
+Citation element: <cite> </cite>
+
+<a> </a> “Anchor” – this is required for a Link element 
+
+
+<a href= “https://google.com”> We put this in here. </a>
+
+Link: https://google.com
+“We put this in here” :  The text that is shown on the URL if you want to put the text on the url
+
+Target = “_self” <- Better understand this part of URLs 
+
+Phone Number: <a href=”mailto:9703767287” 
+Email: <a href=”mailto: mariahrosedavis@gmail.com” 
+
