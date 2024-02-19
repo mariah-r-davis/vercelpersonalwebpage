@@ -1,18 +1,36 @@
 body {
-    background-color: rgb(149, 211, 228);
+    background-color: rgb(159, 211, 226);
     height: 100vh;
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-size: larger;
+    font-size: 75px;
     font-family: Arial, Helvetica, sans-serif;
-    color: azure;
+    color: rgb(29, 121, 121);
+    align-items: center;
+    display: inline-block;
+}
+
+.boxes{
+    background: orange;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    align-items: center;
+    background: grey;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 p {
-    color: blueviolet;
+    font-size: 20px;
+    color: blueviolet
 }
 
 .highlight {
@@ -30,9 +48,16 @@ a {
 #articleDark {
     background-color: #000;
     color: #fff;
+    display: inline-block;
 }
 
 #articleLight {
     background-color: #fff;
     color: #000;
+    display: inline-block;
+}
+
+summary {
+    font-size: large;
+    color: palevioletred;
 }
