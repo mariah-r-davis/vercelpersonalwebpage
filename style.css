@@ -11,12 +11,22 @@ h1 {
     color: rgb(29, 121, 121);
     align-items: center;
     display: inline-block;
+    text-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
 .boxes{
     background: orange;
     display: flex;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    /* box-shadow: 
+    -5px -5px 0 red,
+    -10px -10px 0 orange,
+    -15px -15px 0 yellow,
+    -20px -20px 0 green,
+    -25px -25px 0 blue,
+    -30px -30px 0 purple; */
 }
 .box {
     align-items: center;
@@ -26,6 +36,7 @@ h1 {
     justify-content: center;
     margin: 1rem;
     padding: 1rem;
+    box-shadow: 3px 3px 10px #fbfbfb;
 }
 
 p {
