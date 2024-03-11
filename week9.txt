@@ -1,0 +1,71 @@
+Lecture on Lists 03/11/2024
+
+
+List HTML:
+
+Unordered List - 
+<ul>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+</ul>
+
+Ordered List - 
+<ol>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+</ol>
+
+Ordered List Reverse- 
+<ol reversed>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+</ol>
+
+Ordered List not Starting at 1 - 
+<ol start="4">
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+</ol>
+
+Nested Lists - 
+<ol>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4
+    <ul>
+    <li>4a</li>
+    <li>4b</li>
+    <li>4c</li>
+    </ul>
+</li>
+
+
+List CSS:
+
+ul, ol {
+    list-style:none;
+    list-style:disc;
+    list-style:square;
+    list-style:decimal-leading-zero;
+    list-style:lower-roman;
+}
+
+ol li: :marker {
+    color: red;
+    font-weight: bold;
+    content:"<3"
+}
+

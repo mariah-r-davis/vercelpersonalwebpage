@@ -1,3 +1,5 @@
+Classes vs IDs
+
 Class:  .wide
 ID:  #big
 
@@ -14,9 +16,9 @@ Head vs header in HTML
 Class is specifically used for CSS 
 
 
-Banner// header
+Banner // header
 
-Menu// nav
+Menu // nav
 
 
 Bold vs Strong:
