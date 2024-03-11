@@ -156,22 +156,22 @@ article {
     /* Ensure the section takes up the entire viewport height */
 }
 
-.box1,
-.box2,
-.box3,
-.box4,
-.box5,
-.box6,
-.box7,
-.box8,
-.box9,
-.box10,
-.box11,
-.box12,
-.box13,
-.box14,
-.box15,
-.box16 {
+.boxes .box1 a,
+.boxes .box2 a,
+.boxes .box3 a,
+.boxes .box4 a,
+.boxes .box5 a,
+.boxes .box6 a,
+.boxes .box7 a,
+.boxes .box8 a,
+.boxes .box9 a,
+.boxes .box10 a,
+.boxes .box11 a,
+.boxes .box12 a,
+.boxes .box13 a,
+.boxes .box14 a,
+.boxes .box15 a,
+.boxes .box16 a {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -194,7 +194,8 @@ a​:visited {
 }
 
 .boxes>div>a:hover {
-    color: rgb(26, 96, 131);
+    color: rgb(255, 255, 255);
+    font-weight: 200;
 }
 
 .bungee-shade-regular {
@@ -219,23 +220,31 @@ h1 a:hover {
     color: rgb(142, 173, 188);
 }
 
-.boxes .box1:hover,
-.boxes .box2:hover,
-.boxes .box3:hover,
-.boxes .box4:hover,
-.boxes .box5:hover,
-.boxes .box6:hover,
-.boxes .box7:hover,
-.boxes .box8:hover,
-.boxes .box9:hover,
-.boxes .box10:hover,
-.boxes .box11:hover,
-.boxes .box12:hover,
-.boxes .box13:hover,
-.boxes .box14:hover,
-.boxes .box15:hover,
-.boxes .box16:hover {
+.boxes .box1 a:hover,
+.boxes .box2 a:hover,
+.boxes .box3 a:hover,
+.boxes .box4 a:hover,
+.boxes .box5 a:hover,
+.boxes .box6 a:hover,
+.boxes .box7 a:hover,
+.boxes .box8 a:hover,
+.boxes .box9 a:hover,
+.boxes .box10 a:hover,
+.boxes .box11 a:hover,
+.boxes .box12 a:hover,
+.boxes .box13 a:hover,
+.boxes .box14 a:hover,
+.boxes .box15 a:hover,
+.boxes .box16 a:hover {
     background-color: rgb(142, 173, 188);
+    color: rgb(255, 255, 255);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-style: none;
+}
+
+.boxes a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+
 }
