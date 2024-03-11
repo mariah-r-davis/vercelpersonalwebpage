@@ -115,8 +115,6 @@ article {
     /* Ensure full width */
 }
 
-.left-section {}
-
 .left-section,
 .right-section {
     flex-basis: 50%;
