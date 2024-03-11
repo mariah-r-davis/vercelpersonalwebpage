@@ -169,3 +169,7 @@ article {
   a​:visited { 
     color: rgb(128, 95, 128); 
 }
+
+.navigation ul li a:hover {
+    color: rgb(142, 173, 188);
+}
