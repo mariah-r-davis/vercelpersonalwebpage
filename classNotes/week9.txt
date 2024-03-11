@@ -69,3 +69,21 @@ ol li: :marker {
     content:"<3"
 }
 
+
+Pagination for blog posts
+
+HTML: 
+<ol>
+    <li><a href="#">1</a></li>
+</ol>
+
+CSS:
+ol {
+    display: flex;
+    list-style: none;
+}
+
+For assignment, ensure that you do the hover component where the color of the text changes when you hover over the navigation menu
+.my-menu li a:hover svg {
+    fill: red;
+}
