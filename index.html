@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mariah Davis - Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css" /> <!--This is where we link the .css style sheet -->
+
+    <!-- Google Font and Emoji imports-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <!-- Sailboat--><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Home --><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Potted Plant --><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Text Snippet --><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XV23T1V4N"></script>
     <script>
@@ -11,21 +22,52 @@
     gtag('config', 'G-8XV23T1V4N');
 </script>
     </head>
-        <div class="grid">
-            <header>
-            Header
-            </header>
-            
-        <article>
-            Main
+        <header class="siteHeader">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home<span class="material-symbols-outlined">
+                        home
+                        </span></a></li>
+                    <li><a href="about.html">About<span class="material-symbols-outlined">
+                        sailing
+                        </span></a></li>
+                    <li><a href="contactMe.html">Contact Me<span class="material-symbols-outlined">
+                        potted_plant
+                        </span></a></li>
+                    <li><a href="classNotes.html">Class Notes<span class="material-symbols-outlined">
+                        text_snippet
+                        </span></a></li>
+                </ul>
+            </nav>
+        </header>  
+
+            <h1>
+                Mariah's Webpage 2.0
+            </h1>
+
+            <article>
+                <p>A bit more accessible, eh? </p></br>
+                <p>Still continuously learning, changing, and evolving my webpage. In the future, there will be blogs, how-to articles for various data analytics topics, and more... Please check back frequently!</p></br>
+                <div class="content-wrapper">
+                    <section class="left-section">
+                        <p><b>An ode to Mariah's Webpage 1.0:</b></p>
+                        <br>
+                        <quote>She was bold, colorful, and MySpace-esque. She was from a different time, a time before we gave any thought to color or screen-reader accessibility. Semantic HTML? Barely. Spacing issues? Insert some line breaks. Her use of color was questionable, but her personality was a thing of beauty. Made too quickly, gone too soon.</quote>
+                        <p><em>January 28th 2024 - March 11th 2024</em></p>
+                    </section>
+                    <section class="right-section">
+                        <img src="/Users/mariahdavis/Documents/Personal Webpage/Images/mariah_webpage1.0_screenshot.png" alt="An image of the previous version of my webpage">
+                    </section>
+                </div>
             </article>
             
-            <aside>
+            <!-- <aside>
             Sidebar
-            </aside>
+            </aside> -->
             
             <footer>
-            Footer
+                <span>© Mariah Davis Development</span> <span class="right-aligned">Check out the madness in real time <a href="https://github.com/mariah-r-davis/vercelpersonalwebpage">Github Repo</a></span>
             </footer>
+            
         </div>
 </html>

@@ -1,0 +1,56 @@
+Colors in CSS
+
+HEX Codes:
+#000000 - black
+Select any number 0-9
+Select any letter A-F
+
+
+Named Colors:
+#lightgrey
+#darkgrey
+Not reccomended as they are not very reliable and can be misleading
+
+
+RGB or RGBA:
+rgb(0 0 0)
+Red, Green, and Blue
+3 color channels - values go from 0-255
+A stands for A channel or Alpha channel - this is the degree of transparency to the color
+A ranges from 0-1
+
+
+HSL or HSLA
+hsl(0 100% 50%)
+Hue: 0 - 360
+Saturation: 0% - 100% (lower numbers = greyer)
+Lightness: 0% - 100%
+
+
+/* Keyword values */
+color: currentcolor;
+
+/* <named-color> values */
+color: red;
+color: orange;
+color: tan;
+color: rebeccapurple;
+
+/* <hex-color> values */
+color: #090;
+color: #009900;
+color: #090a;
+color: #009900aa;
+
+/* <rgb()> values */
+color: rgb(34, 12, 64);
+color: rgb(34, 12, 64 / 0.75); /* with transparency */
+
+/* <hsl()> values */
+color: hsl(30 100% 50%);
+color: hsl(30 100% 50% / 0.6); /* with transparency */
+
+/* Global values */
+color: inherit;
+color: initial;
+color: unset;
