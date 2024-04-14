@@ -10,27 +10,30 @@ HTML Syntax -
         <th>Header 3</th>
         <tr>
     </thead>
-    <tr>
-        <td> Cell 1 </td>
-        <td> Cell 2 </td>
-        <td> Cell 3 </td>
-    </tr>
-    <tr>
-        <td> Cell 1 </td>
-        <td> Cell 2 </td>
-        <td> Cell 3 </td>
-    </tr>
-    <tr>
-        <td> Cell 1 </td>
-        <td> Cell 2 </td>
-        <td> Cell 3 </td>
-    </tr>
+    <tbody>
+        <tr>
+            <td> Cell 1 </td>
+            <td> Cell 2 </td>
+            <td> Cell 3 </td>
+        </tr>
+        <tr>
+            <td> Cell 1 </td>
+            <td> Cell 2 </td>
+            <td> Cell 3 </td>
+        </tr>
+        <tr>
+            <td> Cell 1 </td>
+            <td> Cell 2 </td>
+            <td> Cell 3 </td>
+        </tr>
+    </tbody>
 </table>
 
 
 <table></table> - Creates the table
 <tr></tr> - Table Row
 <td></td> - Table Cell
+<tbody></tbody> - Table Body Semantic Element to differentiate between header and non-header cells
 <thead></thead> - Table Header
 <th></th> - Table Header Cells
 
@@ -49,3 +52,6 @@ td {
 
 td - Styles the cells
 table - Styles the table
+
+
+[convert to markdown and add image from lesson]
